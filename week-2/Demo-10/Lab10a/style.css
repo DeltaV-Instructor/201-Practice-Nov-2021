@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+}
+
+body { 
+  clear: both;
+  background-color: rgba(28, 163, 226, 0.63);
+  width: 1200px;
+  margin:  auto;
+}
+
+.backSlashRepeat {
+  background-image: url("lab-assets/hr-img.png");
+  width: 100%;
+  height: 10px;
+  background-repeat: repeat-x;
+  background-size: 10px;
+  margin-top: 40px;
+}
+.recipeSection {
+  background-image: url("lab-assets/list-bg.png");
+  margin-left: 150px;
+  width: 75%;
+  
+}
+
+
+header{
+  background-color: white;
+  padding-bottom: 20px;
+}
+.header{
+  margin-top: 25px;
+  float: left;
+}
+h1{
+  clear: both;
+}
+
+
+nav {
+  clear: both;
+}
+
+nav ul {
+  margin-top: -40px;
+  float: right;
+}
+nav ul li{
+  display: inline-block;
+}
+
+main{
+  background-color: white;
+  clear: both;
+}
+
+
+footer{
+  background-color: white;
+  padding-top: 25px;
+    clear: both;
+
+}
+
+.footer{
+  margin-left: 130px;
+  float: left;
+}
+
+footer h2 {
+  font-size: 30px;
+  margin-left: 100px;
+  margin-top: -70px;
+
+}
+footer p {
+  width: 60%;
+  font-size: 20px;
+  margin-left: 100px;
+}
+footer section {
+  clear: both;
+
+}
+
+.mainImage{
+  margin-left: 130px;
+}
+
+p{
+  
+  width: 75%;
+margin: 0 auto;
+margin-bottom: 30px;
+}
+.topPara{
+  margin-top: 30px;
+}
+
+#recipeSection {
+clear: both;
+}
+        
+#table1 {
+float: left;
+margin-left: 50px;
+margin-right: 220px;
+}
+
+
+.moveMeDownAndCenter {
+  clear: both;
+  margin-top: 100px;
+}
+
+hr {
+  margin-top: 150px;
+}
+
+button {
+  color: whitesmoke;
+  float: right;
+  margin-right: 145px;
+  margin-top: -75px;
+  padding: 20px;
+  background-color: rgb(0, 110, 255);
+}
+.goToMyHome {
+  margin-top: -45px;
+  margin-left: 555px;
+  border: 15px solid white;
+}

@@ -1,0 +1,27 @@
+body{
+  background-color: #ADB9E3;
+  text-align: center;
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 15px;
+  font-size: 34px;
+  font-family: Arial, Helvetica, sans-serif
+}
+main{
+  background-color: #ACDDE7;
+}
+footer{
+  background-color: #A379C9;
+}
+li {
+  display: inline-block;
+  padding: 10px;  
+}
+
+li a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+li{
+  list-style-type: disc;
+}

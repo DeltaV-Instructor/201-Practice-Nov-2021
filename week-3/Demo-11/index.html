@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <title>Lab 11 Bus Mall</title>
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="css/reset.css">
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@900&family=Righteous&display=swap" rel="stylesheet">
+   </head>
+   <body>
+      <section id="sideColumn">
+         <!-- <marquee><img id="ufo" src="images/ufo.png" /></marquee> -->
+         <marquee style="padding-top: 50px;" behavior="scroll" direction="left" scrollamount="37"><img id="ufo1" src="images/ufo.png" /></marquee>
+         <marquee behavior="scroll" direction="right" scrollamount="12"><img id="ufo1" src="images/ufo.png" /></marquee>
+         <marquee behavior="scroll" direction="left" scrollamount="20"><img id="ufo" src="images/ufo.png" /></marquee>
+         <marquee behavior="scroll" direction="right" scrollamount="50"><img id="ufo" src="images/ufo.png" /></marquee>
+         <h1>
+            Space S<span class="hip">hip</span>
+            <span class="mall">
+               <div>M</div>
+               <div>a</div>
+               <div>L</div>
+               <div>L</div>
+            </span>
+         </h1>
+         <header>
+            <nav>
+               <ul>
+                  <li>HomeBase</li>
+                  <li>daUnknown</li>
+                  <li>Moon</li>
+                  <li>Ship</li>
+               </ul>
+            </nav>
+         </header>
+         <main>
+            <section class="imageCenter" id="imageSection">
+               <img class="img" id="leftImage" src="images/assets/dragon.jpg" />
+               <img class="img" id="middleImage" src="images/assets/tauntaun.jpg" />
+               <img class="img" id="rightImage" src="images/assets/unicorn.jpg" />
+               <section class="voteResults">
+                  <button onclick="resultListOfVotes()" id="button" class="button">View Results Now!</button>
+                  <ul id="displayListResults"></ul>
+               </section>
+               <p>Vote Galaxy Go!</p>
+            </section>
+         </main>
+         <footer>
+         </footer>
+      </section>
+      <script src="js/app.js"></script>
+   </body>
+</html>
